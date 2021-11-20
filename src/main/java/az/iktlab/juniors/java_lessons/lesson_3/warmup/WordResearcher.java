@@ -14,7 +14,7 @@ public class WordResearcher {
         int vowelsCnt = 0;
         int constCnt = 0;
 
-        String wordsArr[] = words.split(" ");
+        String[] wordsArr = words.split(" ");
         wordsCnt = wordsArr.length;
 
         for (int i = 0; i < wordsCnt; i++) {
