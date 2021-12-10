@@ -17,7 +17,7 @@ public class Middlechrchtr {
         if (a % 2 == 0)
             return x.charAt(odd) +" "+ x.charAt(even) ;
         else {
-         return String.valueOf(x.charAt(odd));
+         return String.valueOf(x.charAt(even));
             
         }
 
